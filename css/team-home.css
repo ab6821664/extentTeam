@@ -1,0 +1,153 @@
+html{
+    font-size:20px;
+    font-family: MicrosoftYaHei;
+}
+body{
+    width:100%;
+    max-width: 780px;
+}
+
+header{
+    background-color: #6699cc;
+    text-align: center;
+    color:white;
+    font-size:0.9rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    width: 100%;
+}
+/*  头部导航  */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #6699cc;
+    height: 4.2rem;
+    color: white;
+    align-items: center;
+}
+.nav p{
+    text-align: center;
+    font-size:0.75rem;
+}
+.nav img{
+    width:50%;
+}
+.item-title{
+    margin-top:5px;
+}
+/*  团队认领池  */
+.team-get{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1.95rem;
+    align-items: center;
+    border-bottom: rgb(228,228,228);
+}
+.child-title{
+    color: #333333;
+    font-size: 0.75rem;
+}
+.more{
+    color: #5FADF2;
+    font-size: 0.75rem;
+}
+#topic{
+    height: 8.9rem;
+    font-size: 0.75rem;
+}
+.topic p{
+    height: 1.9rem;
+    align-items: center;
+
+}
+.item-datail{
+    display: flex;
+    align-items: center;
+}
+.item-datail{
+    font-size:0.75rem;
+}
+.title-status{
+    border:1px solid rgba(95,173,242,1);
+    border-radius:0.06rem;
+    margin-left:0.5rem;
+    font-size:0.575rem;
+    padding: 0.1rem;
+}
+.topic-pick{
+    display: flex;
+    justify-content: space-around;
+}
+.pick{
+    width:5rem;
+    height:7rem;
+    margin-top:0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo-name{
+
+}
+.photo{
+    width:2.65rem;
+    height:2.65rem;
+    background-color:white;
+    border-radius: 50%;
+}
+.name{
+    width:2.5rem;
+    height:0.8rem;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    top:-0.25rem;
+    font-size:0.6rem;
+    text-align: center;
+}
+.vote-number{
+    font-size:0.7rem;
+    color:white;
+}
+.vote-progress {
+    width: 4.2rem;
+    height: 0.3rem;
+    background-color: #cccccc;
+}
+.vote-progress-value{
+    width:40%;
+    height:0.3rem;
+    background-color: white;
+}
+.vote{
+    width: 4.2rem;
+    height:1.05rem;
+    color:#56C4CF;
+    font-size:0.65rem;
+    background-color: white;
+    text-align: center;
+    line-height: 1.05rem;
+}
+.pk{
+    height:2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pk button{
+     width:6.15rem;
+     height:1.4rem;
+    text-align: center;
+    color: white;
+    background-color: #5FADF2;
+}
+.team-show{
+    font-size: 0.7rem;
+    height:10.35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
